@@ -37,6 +37,10 @@ void dfs(int x,int y,int ans_){
     }
 }
 int main(void){
-    
+    int x,y;
+    cin>>x>>y;
+    dfs(x,y,0);
+    if(flag) cout<<"yes"<<" "<<ans<<" "<<anses;//Is it possible to reach+required steps+total number of plans. 
+    else cout<<"no"<<" "<<ans<<" "<<anses;
     return 0;
 }
